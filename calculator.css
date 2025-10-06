@@ -1,0 +1,301 @@
+.calculator{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+     margin-block-start: 2em;
+    max-inline-size: 22rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15), 0px 2px 4px 0px rgba(0, 0, 0, 0.12); 
+}
+.calculatorOutput{
+    font-size: 2rem;
+    background: hsl(202, 11%, 29%);
+    color: hsl(255, 100%, 100%);
+    padding-block-start: 0.25rem;
+    padding-block-end: 1.25rem;
+    padding-inline-end: 0.75rem;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: end;
+    
+}
+.calculatorKeyOperatorplus{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+   background: hsl(208, 25%, 86%);
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyOperatorminus{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+   background: hsl(208, 25%, 86%);
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyOperatorby{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+   background: hsl(208, 25%, 86%);
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyOperatordivide{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+   background: hsl(208, 25%, 86%);
+   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeySeven{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyEight{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+
+}
+.calculatorKeyNine{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyFour{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyFive{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeySix{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyOne{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyTwo{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+
+}
+.calculatorKeyThree{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyZero{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border: none;
+  padding-block-start: 0.5rem; /* Logical Property for padding-top */
+  padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+  padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+  padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+  font-size: 1.5rem;
+  grid-gap: 1px;
+  background: hsl(208, 24%, 74%);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+
+}
+.calculatorKeyDot{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    border: none;
+    padding-block-start: 0.5rem; /* Logical Property for padding-top */
+    padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+    padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+    padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+    font-size: 1.5rem;
+    grid-gap: 1px;
+    background: hsl(208, 24%, 74%);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyAC{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    border: none;
+    padding-block-start: 0.5rem; /* Logical Property for padding-top */
+    padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+    padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+    padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+    font-size: 1.5rem;
+    grid-gap: 1px;
+    background: hsl(208, 24%, 74%);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+}
+.calculatorKeyOperatorEqual{
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    border: none;
+    padding-block-start: 5.8rem; /* Logical Property for padding-top */
+    padding-block-end: 0.7rem; /* Logical Property for padding-bottom */
+    padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+    padding-inline-end: 1.25rem; /* Logical Property for padding-right */
+    font-size: 1.5rem;
+    grid-gap: 1px;
+    background: hsl(357, 100%, 72%);
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+    
+
+}
+.material-icons{
+    padding-block-start: 0.5rem; /* Logical Property for padding-top */
+    padding-block-end: 0.5rem; /* Logical Property for padding-bottom */
+    padding-inline-start: 1.25rem; /* Logical Property for padding-left */
+    padding-inline-end: 1.25rem;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+     grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    
+
+}
