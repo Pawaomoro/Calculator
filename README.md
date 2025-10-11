@@ -1,3 +1,4 @@
+
 # 🧮 JavaScript Calculator
 
 A fully functional calculator built with vanilla JavaScript, HTML, and CSS. This project was created as part of [The Odin Project](https://www.theodinproject.com/) curriculum to practice DOM manipulation, event handling, and JavaScript fundamentals.
@@ -23,7 +24,7 @@ A fully functional calculator built with vanilla JavaScript, HTML, and CSS. This
 
 ## 📸 Screenshots
 
-<!-- Add screenshots of your calculator here -->
+![CAL](https://github.com/user-attachments/assets/f5d10912-7302-48b0-948e-b911b6368002)
 
 ## 🛠️ Technologies Used
 
