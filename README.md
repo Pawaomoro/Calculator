@@ -19,7 +19,7 @@ A fully functional calculator built with vanilla JavaScript, HTML, and CSS. This
 
 ## 🚀 Live Demo
 
-[View Live Demo](#) <!-- Add your GitHub Pages or deployment link here -->
+[View Live Demo](https://pawaomoro.github.io/Calculator/) <!-- Add your GitHub Pages or deployment link here -->
 
 ## 📸 Screenshots
 
